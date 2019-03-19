@@ -1,0 +1,131 @@
+
+
+
+
+.logo img {
+  width: 50%;
+}
+
+.annonce h1{
+  margin-left: 20px;
+
+}
+
+
+header .row{
+  min-height: 85vh;
+  background-image: url('plage.jpg');
+  background-size: cover;
+  align-items: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+
+header .formReservation{
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+
+
+}
+
+
+header h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#presentation .media span{
+  color: #d7b841;
+  font-size: 3rem;
+  width: 4rem;
+  text-align: center;
+
+}
+
+#presentation .media:hover{
+  background-color: #dadfe8;
+
+
+}
+
+#presentation .media{
+  padding: .5rem 1rem;
+  transition: all .3s ease-in-out;
+border-radius: 5px;
+
+}
+
+
+.avisClient{
+  background-color: #d3dae4;
+  min-height: calc(100vh - 50px);
+
+}
+
+.avisClient span{
+  font-size: 5rem;
+  color: #17a2b8;
+}
+
+.avisClient h5{
+  color:grey;
+  font-size: 2.5rem;
+}
+
+.fondChambre {
+  min-height: calc(100vh - 50px);
+  background-image: url('chambre.jpg');
+  background-size: cover;
+  align-items: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+#contact {
+  background-image: url('turtle.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: calc(100vh - 50px);
+
+}
+
+#contact .row{
+  min-height: calc(100vh - 50vh);
+
+}
+
+.formContact {
+
+  background-color: rgba(255, 255, 255, 0.5);
+  padding:  2rem 1rem;
+  margin-top: 250px;
+  border-radius: 10px;
+}
+
+footer{
+  background-color:#727272;
+  color:white;
+  padding-top: 2rem;
+  padding-bottom: -6rem;
+}
+
+footer a{
+  font-size: 2rem;
+  color: white;
+  transition: all .2s ease-in-out;
+
+}
+
+footer a:hover {
+  color:#51aabc;
+  text-decoration: none;
+}
